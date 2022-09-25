@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { SingupService } from './shared/services/singup.service'
 
 @Component({
   selector: 'app-root',

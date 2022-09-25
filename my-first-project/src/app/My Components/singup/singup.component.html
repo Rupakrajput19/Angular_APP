@@ -1,0 +1,72 @@
+<div class="container">
+    <div class="image">
+        <img src="https://www.successmantra.in/assets/assestsnew/images/login-registration.png" alt="Singup_Image">
+    </div>
+    <div>
+  <div class="text_box">
+    <h1>Welcome!</h1>
+    <h2>{{title}} to your account</h2>
+  </div>
+  <div class="form_container">
+    <form action="/" autocomplete="off">
+      <div class="input_field">
+        <label for="name"><mat-icon>person</mat-icon></label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name.."
+          [(ngModel)]="name"
+        />
+      </div>
+      <div class="input_field">
+        <label for="email"><mat-icon>mail</mat-icon></label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email.."
+          [(ngModel)]="email"
+        />
+      </div>
+      <div class="input_field">
+        <label for="mobile"><mat-icon>call</mat-icon></label>
+        <input
+          type="tel"
+          name="mobile"
+          id="mobile"
+          maxlength="10"
+          placeholder="Enter your mobile no.."
+          [(ngModel)]="mobile"
+        />
+      </div>
+      <div class="input_field">
+        <label for="password"><mat-icon>password</mat-icon></label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter your password.."
+          [(ngModel)]="password"
+        />
+      </div>
+      <div class="input_field">
+        <label for="confirm_password"><mat-icon>password</mat-icon></label>
+        <input
+          type="password"
+          name="confirm_password"
+          id="confirm_password"
+          placeholder="Enter Confirm password.."
+        />
+      </div>
+      <div class="Submit_btn">
+        <!-- <Button (click)="register()">Submit</Button> -->
+        <Button>Submit</Button>
+      </div>
+    </form>
+    <div class="links">
+      <p>Already Have An Account? <a href="../login/login.component.html">Login</a></p>
+    </div>
+  </div>
+</div>
+</div>

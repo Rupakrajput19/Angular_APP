@@ -1,0 +1,14 @@
+.footer{
+    margin: 100px auto 20px auto;
+    text-align: center;
+}
+a{
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
